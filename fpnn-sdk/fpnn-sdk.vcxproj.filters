@@ -1,0 +1,2703 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{6b2a603e-e07a-449d-8791-318f5d497198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{f0f8a9ab-7141-4f72-92c7-182bfc8e7eec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\micro-ecc">
+      <UniqueIdentifier>{6a39b8f0-d92b-4b8e-81de-45d28590c3ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto">
+      <UniqueIdentifier>{5eaa90a2-0c38-428c-a844-c0e886a4d291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack">
+      <UniqueIdentifier>{CE126CD7-A7CC-4B5C-9B4F-9A3C7B33BFDA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack">
+      <UniqueIdentifier>{7DE3F16C-CCDB-4532-B6BE-A7B76ED1A9BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\adaptor">
+      <UniqueIdentifier>{9C669422-3BDA-4247-8E22-D3A477706420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\adaptor\boost">
+      <UniqueIdentifier>{DD7BA6F3-65C8-4413-B200-197F7B09145D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\adaptor\cpp11">
+      <UniqueIdentifier>{37D6093E-0A4F-40E1-85C2-FB82254C333C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\adaptor\cpp17">
+      <UniqueIdentifier>{F1EC931C-7FE0-4F58-8173-0B5FA77EE348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\adaptor\tr1">
+      <UniqueIdentifier>{4162752A-91ED-4280-853D-78ABACAD74CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\predef">
+      <UniqueIdentifier>{9C824DA0-AF29-4636-8F59-D34FFFAFD431}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\predef\architecture">
+      <UniqueIdentifier>{A65D2365-B967-462D-809A-B00E6DDA5DFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\predef\architecture\x86">
+      <UniqueIdentifier>{39DA8E31-D246-4A57-8DEB-0E55B3676A73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\predef\compiler">
+      <UniqueIdentifier>{5F60D659-5B16-4374-9249-8C573DBE6DFD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\predef\detail">
+      <UniqueIdentifier>{833781F1-5C96-48A3-A3D8-67F1C23CA7FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\predef\hardware">
+      <UniqueIdentifier>{24B5568E-B2D9-4400-82D8-BD70C09AB391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\predef\hardware\simd">
+      <UniqueIdentifier>{7E3F6000-BABC-42A6-9843-F2B72C5B2944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\predef\hardware\simd\arm">
+      <UniqueIdentifier>{BCC58A3B-779C-4AE8-93CD-E308EBA5E0F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\predef\hardware\simd\ppc">
+      <UniqueIdentifier>{6D304724-ADD5-4F07-BDFE-D249DDC48FEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\predef\hardware\simd\x86">
+      <UniqueIdentifier>{A40EBB82-D057-4DF6-8A63-9EC1BFFACFFF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\predef\hardware\simd\x86_amd">
+      <UniqueIdentifier>{D7B483A9-C241-430A-83F8-27305D1EE731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\predef\language">
+      <UniqueIdentifier>{E9EA7283-91B5-4DD0-A8C8-209F58A05841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\predef\library">
+      <UniqueIdentifier>{4C3733A4-89BC-4AEE-A631-2B12105E8AD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\predef\library\c">
+      <UniqueIdentifier>{2692C847-A09E-4605-9A1B-B48634DAC511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\predef\library\std">
+      <UniqueIdentifier>{4A5B5531-1B2C-42F4-9EF6-45B62B713101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\predef\os">
+      <UniqueIdentifier>{7D6BDCC5-BE78-454E-80CD-4A6A28CC55C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\predef\os\bsd">
+      <UniqueIdentifier>{A7D0C093-4EB1-4365-8FB5-6759E504E41C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\predef\other">
+      <UniqueIdentifier>{16E6B20A-8215-4B0F-A796-41882905BD0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\predef\platform">
+      <UniqueIdentifier>{2A5AC092-FAE2-4AAA-BE47-BA30D6427FFF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor">
+      <UniqueIdentifier>{93DFB5F7-6ADA-4162-9808-E0867BA09F49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\arithmetic">
+      <UniqueIdentifier>{107E9929-75EE-4974-8F3C-7449ED1D016B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\arithmetic\detail">
+      <UniqueIdentifier>{2292E700-C86D-42FA-929B-06E3D9B5C4EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\array">
+      <UniqueIdentifier>{25F66E67-6C5A-4FB0-BD9D-7EB05BD6275D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\array\detail">
+      <UniqueIdentifier>{6499DEEF-7B30-4651-BED1-7A243CC9E425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\comparison">
+      <UniqueIdentifier>{E9874737-7DE1-41D1-A048-AC7B8D3E8289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\config">
+      <UniqueIdentifier>{883C73D0-5979-4BEA-913B-C67B496EC160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\control">
+      <UniqueIdentifier>{53760972-AA2B-4A78-BB08-2DD7BB38D381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\control\detail">
+      <UniqueIdentifier>{F0F73258-4EDF-40E9-BC75-B53BFCF3951C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\control\detail\dmc">
+      <UniqueIdentifier>{9A381B68-D06E-4470-B775-9EE25964D1A5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\control\detail\edg">
+      <UniqueIdentifier>{E833BA1D-5ECA-487E-BD5E-87BFEB18413E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\control\detail\msvc">
+      <UniqueIdentifier>{E33DBCC2-C226-4E1D-AB2F-343177C767FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\debug">
+      <UniqueIdentifier>{77A6C281-2FCD-4468-91E2-DBC766E28F5E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\detail">
+      <UniqueIdentifier>{740FFAB8-1F1F-440E-B9D7-6AE74D447A13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\detail\dmc">
+      <UniqueIdentifier>{B9BDD1B2-899D-4F9F-8893-1D9DAFE31E04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\facilities">
+      <UniqueIdentifier>{87B5A575-9C00-40D3-8BFE-5FC6914E382D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\facilities\detail">
+      <UniqueIdentifier>{DB7B25B2-2349-4C64-941E-204E8EC398A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\iteration">
+      <UniqueIdentifier>{780C2900-C75E-4C0E-A24E-0968CCDCF62D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\iteration\detail">
+      <UniqueIdentifier>{66C5F1A0-8DFE-43A6-9C8D-9F46F02D61E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\iteration\detail\bounds">
+      <UniqueIdentifier>{590CCCE0-40C3-4F70-905F-B0B38DD042B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\iteration\detail\iter">
+      <UniqueIdentifier>{992828AF-2FA0-44EA-9D20-4E0DDED79A8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\list">
+      <UniqueIdentifier>{B9B7AAFB-1A4D-4EB9-A29F-9E14C2EFC510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\list\detail">
+      <UniqueIdentifier>{BE4E3369-3652-4080-8A43-24342D12B49F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\list\detail\dmc">
+      <UniqueIdentifier>{9F69A0D6-5D6C-4266-9260-144E0C7B4AF9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\list\detail\edg">
+      <UniqueIdentifier>{39B5CE9A-2246-4243-919D-1D3AE367CB9F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\logical">
+      <UniqueIdentifier>{DDE8424A-5FF6-48B7-BF5A-6D7B779FB6A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\punctuation">
+      <UniqueIdentifier>{1255D285-6254-491B-9375-DAE9648B8DC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\punctuation\detail">
+      <UniqueIdentifier>{8D6C3D57-A039-4AB8-9AA4-13D1A90A8B06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\repetition">
+      <UniqueIdentifier>{30485DB2-A45B-4117-B34C-95AB4D109ACD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\repetition\detail">
+      <UniqueIdentifier>{5D507A5D-ED47-415B-9AB2-7A7CAE71CB52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\repetition\detail\dmc">
+      <UniqueIdentifier>{A26030E6-AC75-4FBE-AC5D-491A62677D89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\repetition\detail\edg">
+      <UniqueIdentifier>{38E5C486-4F05-49C0-B508-064E351F9C09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\repetition\detail\msvc">
+      <UniqueIdentifier>{97F7A3CA-0A13-42F8-8EB2-6D0DC35B8E67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\selection">
+      <UniqueIdentifier>{9C4F30EC-B7DF-4469-BA17-A41D64FB5880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\seq">
+      <UniqueIdentifier>{969D8C9F-20CB-498A-B5E8-97D68063F41C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\seq\detail">
+      <UniqueIdentifier>{F72BFE5A-6FDD-4F2C-B291-921D8EBBA905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\slot">
+      <UniqueIdentifier>{AA6D372B-7E50-401D-B603-71AC184EA6BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\slot\detail">
+      <UniqueIdentifier>{4C96F1E0-B3CF-4DEA-A95B-7481DADDBA1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\tuple">
+      <UniqueIdentifier>{42E9C33C-62C8-44B0-A4CD-3441261BC5EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\tuple\detail">
+      <UniqueIdentifier>{10E1BB14-5AB2-46B4-B7AE-FAFF51889F5F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\variadic">
+      <UniqueIdentifier>{E2662D70-8687-4DE4-AA5B-5CD55BBF123D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\preprocessor\variadic\detail">
+      <UniqueIdentifier>{9F9E2E27-5540-42AD-8403-61A3D637FFEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\v1">
+      <UniqueIdentifier>{A72CE975-15C8-413E-A533-263EB2F053B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\v1\adaptor">
+      <UniqueIdentifier>{59390AF6-1246-47F9-B1FA-0F9245B92AE7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\v1\adaptor\boost">
+      <UniqueIdentifier>{289B4B88-866C-4988-894F-7BDA3EC0A92B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\v1\adaptor\cpp11">
+      <UniqueIdentifier>{D0006756-EC9A-4679-97BB-54ED4B8684BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\v1\adaptor\cpp17">
+      <UniqueIdentifier>{75BA7336-BB3B-4463-8D39-8BE2B4701284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\v1\adaptor\detail">
+      <UniqueIdentifier>{22391D99-A1C4-4A53-8B70-3776B467F425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\v1\adaptor\tr1">
+      <UniqueIdentifier>{EBBA32F2-01B6-4AC4-B633-94610AA0F9CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\v1\detail">
+      <UniqueIdentifier>{FF7555E3-7337-4804-AA10-BCBA3105526D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\v2">
+      <UniqueIdentifier>{4EF07CF7-F5A8-4A10-92CD-BD95B2297D5F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\v2\adaptor">
+      <UniqueIdentifier>{F9CD4A01-94F6-4127-B99E-D6F5956A2142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\v2\adaptor\boost">
+      <UniqueIdentifier>{A93764E3-819A-4223-82C1-23F5942944A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\v2\adaptor\detail">
+      <UniqueIdentifier>{4B611EA1-CBB6-43C4-BB1A-A91ED8989017}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\msgpack\msgpack\v2\detail">
+      <UniqueIdentifier>{5B79789C-E245-45E2-AE6B-B076648C9721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\rapidjson">
+      <UniqueIdentifier>{4370A0C8-0D83-4B07-BA7D-86B4227DAD7F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\rapidjson\error">
+      <UniqueIdentifier>{3A961746-7109-42E7-A8B4-43BEAC5AC52A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\rapidjson\internal">
+      <UniqueIdentifier>{91D4AB25-BCC6-4979-A1E0-FE057074CB51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\rapidjson\msinttypes">
+      <UniqueIdentifier>{4CECCC3B-BC98-42C0-A170-A6CCD426FA0F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base\AutoRelease.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\base64.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\bit.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\CommandLineUtil.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\FileSystemUtil.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\FPJson.Enhancement.Extends.inc.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\FPJson.Enhancement.inc.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\FPJson.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\FPLog.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\FpnnError.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\HashFunctor.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\hashint.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\hex.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\httpcode.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IMemoryPool.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ITaskThreadPool.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\jenkins.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\md5.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\MemoryPool.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\MidGenerator.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\msec.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\NetworkUtility.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\OperatingSystemPlatform.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\PoolInfo.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\queue.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\rijndael.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\sha1.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\sha256.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\StringUtil.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\TaskThreadPool.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\TimeUtil.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="core\micro-ecc\types.h">
+      <Filter>core\micro-ecc</Filter>
+    </ClInclude>
+    <ClInclude Include="core\micro-ecc\uECC.h">
+      <Filter>core\micro-ecc</Filter>
+    </ClInclude>
+    <ClInclude Include="core\micro-ecc\uECC_vli.h">
+      <Filter>core\micro-ecc</Filter>
+    </ClInclude>
+    <ClInclude Include="core\AdvanceAnswer.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\AnswerCallbacks.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\ClientEngine.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\ClientInterface.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\ConcurrentSenderInterface.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Config.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\ConnectionMap.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Decoder.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\embedTypes.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Encryptor.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\IOBuffer.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\IOWorker.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\IQuestProcessor.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\KeyExchange.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\PEM_DER_SAX.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Receiver.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\TCPClient.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\TCPClientIOWorker.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\UDPARQProtocolParser.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\UDPClient.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\UDPClientIOWorker.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\UDPCongestionControl.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\UDPIOBuffer.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\FPMessage.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\FPReader.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\FPWriter.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\JSONConvert.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack.h">
+      <Filter>proto\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack.hpp">
+      <Filter>proto\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\cpp_config.hpp">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\cpp_config_decl.hpp">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\fbuffer.h">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\fbuffer.hpp">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\fbuffer_decl.hpp">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\gcc_atomic.h">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\gcc_atomic.hpp">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\iterator.hpp">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\iterator_decl.hpp">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\meta.hpp">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\meta_decl.hpp">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\object.h">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\object.hpp">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\object_decl.hpp">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\object_fwd.hpp">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\object_fwd_decl.hpp">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\pack.h">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\pack.hpp">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\pack_decl.hpp">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\pack_define.h">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\pack_template.h">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\parse_return.hpp">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef.h">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor.hpp">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\sbuffer.h">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\sbuffer.hpp">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\sbuffer_decl.hpp">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\sysdep.h">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\type.hpp">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\unpack.h">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\unpack.hpp">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\unpack_decl.hpp">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\unpack_define.h">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\unpack_exception.hpp">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\unpack_template.h">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\util.h">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\version.h">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\version.hpp">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\version_master.h">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\versioning.hpp">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\vrefbuffer.h">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\vrefbuffer.hpp">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\vrefbuffer_decl.hpp">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\zbuffer.h">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\zbuffer.hpp">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\zbuffer_decl.hpp">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\zone.h">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\zone.hpp">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\zone_decl.hpp">
+      <Filter>proto\msgpack\msgpack</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\adaptor_base.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\adaptor_base_decl.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\array_ref.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\array_ref_decl.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\bool.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\carray.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\char_ptr.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\check_container_size.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\check_container_size_decl.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\define.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\define_decl.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\deque.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\ext.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\ext_decl.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\fixint.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\fixint_decl.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\float.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\int.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\int_decl.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\list.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\map.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\map_decl.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\msgpack_tuple.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\msgpack_tuple_decl.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\nil.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\nil_decl.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\pair.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\raw.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\raw_decl.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\set.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\size_equal_only.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\size_equal_only_decl.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\string.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\v4raw.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\v4raw_decl.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\vector.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\vector_bool.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\vector_char.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\vector_unsigned_char.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\boost\fusion.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\boost\msgpack_variant.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\boost\msgpack_variant_decl.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\boost\optional.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\boost\string_ref.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\boost\string_view.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\cpp11\array.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor\cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\cpp11\array_char.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor\cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\cpp11\array_unsigned_char.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor\cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\cpp11\forward_list.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor\cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\cpp11\reference_wrapper.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor\cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\cpp11\shared_ptr.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor\cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\cpp11\tuple.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor\cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\cpp11\unique_ptr.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor\cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\cpp11\unordered_map.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor\cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\cpp11\unordered_set.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor\cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\cpp17\optional.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor\cpp17</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\cpp17\string_view.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor\cpp17</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\tr1\unordered_map.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor\tr1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\adaptor\tr1\unordered_set.hpp">
+      <Filter>proto\msgpack\msgpack\adaptor\tr1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\architecture.h">
+      <Filter>proto\msgpack\msgpack\predef</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\compiler.h">
+      <Filter>proto\msgpack\msgpack\predef</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\hardware.h">
+      <Filter>proto\msgpack\msgpack\predef</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\language.h">
+      <Filter>proto\msgpack\msgpack\predef</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\library.h">
+      <Filter>proto\msgpack\msgpack\predef</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\make.h">
+      <Filter>proto\msgpack\msgpack\predef</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\os.h">
+      <Filter>proto\msgpack\msgpack\predef</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\other.h">
+      <Filter>proto\msgpack\msgpack\predef</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\platform.h">
+      <Filter>proto\msgpack\msgpack\predef</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\version.h">
+      <Filter>proto\msgpack\msgpack\predef</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\version_number.h">
+      <Filter>proto\msgpack\msgpack\predef</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\architecture\alpha.h">
+      <Filter>proto\msgpack\msgpack\predef\architecture</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\architecture\arm.h">
+      <Filter>proto\msgpack\msgpack\predef\architecture</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\architecture\blackfin.h">
+      <Filter>proto\msgpack\msgpack\predef\architecture</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\architecture\convex.h">
+      <Filter>proto\msgpack\msgpack\predef\architecture</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\architecture\ia64.h">
+      <Filter>proto\msgpack\msgpack\predef\architecture</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\architecture\m68k.h">
+      <Filter>proto\msgpack\msgpack\predef\architecture</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\architecture\mips.h">
+      <Filter>proto\msgpack\msgpack\predef\architecture</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\architecture\parisc.h">
+      <Filter>proto\msgpack\msgpack\predef\architecture</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\architecture\ppc.h">
+      <Filter>proto\msgpack\msgpack\predef\architecture</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\architecture\pyramid.h">
+      <Filter>proto\msgpack\msgpack\predef\architecture</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\architecture\rs6k.h">
+      <Filter>proto\msgpack\msgpack\predef\architecture</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\architecture\sparc.h">
+      <Filter>proto\msgpack\msgpack\predef\architecture</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\architecture\superh.h">
+      <Filter>proto\msgpack\msgpack\predef\architecture</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\architecture\sys370.h">
+      <Filter>proto\msgpack\msgpack\predef\architecture</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\architecture\sys390.h">
+      <Filter>proto\msgpack\msgpack\predef\architecture</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\architecture\x86.h">
+      <Filter>proto\msgpack\msgpack\predef\architecture</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\architecture\z.h">
+      <Filter>proto\msgpack\msgpack\predef\architecture</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\architecture\x86\32.h">
+      <Filter>proto\msgpack\msgpack\predef\architecture\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\architecture\x86\64.h">
+      <Filter>proto\msgpack\msgpack\predef\architecture\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\compiler\borland.h">
+      <Filter>proto\msgpack\msgpack\predef\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\compiler\clang.h">
+      <Filter>proto\msgpack\msgpack\predef\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\compiler\comeau.h">
+      <Filter>proto\msgpack\msgpack\predef\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\compiler\compaq.h">
+      <Filter>proto\msgpack\msgpack\predef\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\compiler\diab.h">
+      <Filter>proto\msgpack\msgpack\predef\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\compiler\digitalmars.h">
+      <Filter>proto\msgpack\msgpack\predef\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\compiler\dignus.h">
+      <Filter>proto\msgpack\msgpack\predef\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\compiler\edg.h">
+      <Filter>proto\msgpack\msgpack\predef\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\compiler\ekopath.h">
+      <Filter>proto\msgpack\msgpack\predef\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\compiler\gcc.h">
+      <Filter>proto\msgpack\msgpack\predef\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\compiler\gcc_xml.h">
+      <Filter>proto\msgpack\msgpack\predef\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\compiler\greenhills.h">
+      <Filter>proto\msgpack\msgpack\predef\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\compiler\hp_acc.h">
+      <Filter>proto\msgpack\msgpack\predef\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\compiler\iar.h">
+      <Filter>proto\msgpack\msgpack\predef\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\compiler\ibm.h">
+      <Filter>proto\msgpack\msgpack\predef\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\compiler\intel.h">
+      <Filter>proto\msgpack\msgpack\predef\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\compiler\kai.h">
+      <Filter>proto\msgpack\msgpack\predef\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\compiler\llvm.h">
+      <Filter>proto\msgpack\msgpack\predef\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\compiler\metaware.h">
+      <Filter>proto\msgpack\msgpack\predef\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\compiler\metrowerks.h">
+      <Filter>proto\msgpack\msgpack\predef\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\compiler\microtec.h">
+      <Filter>proto\msgpack\msgpack\predef\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\compiler\mpw.h">
+      <Filter>proto\msgpack\msgpack\predef\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\compiler\palm.h">
+      <Filter>proto\msgpack\msgpack\predef\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\compiler\pgi.h">
+      <Filter>proto\msgpack\msgpack\predef\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\compiler\sgi_mipspro.h">
+      <Filter>proto\msgpack\msgpack\predef\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\compiler\sunpro.h">
+      <Filter>proto\msgpack\msgpack\predef\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\compiler\tendra.h">
+      <Filter>proto\msgpack\msgpack\predef\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\compiler\visualc.h">
+      <Filter>proto\msgpack\msgpack\predef\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\compiler\watcom.h">
+      <Filter>proto\msgpack\msgpack\predef\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\detail\_cassert.h">
+      <Filter>proto\msgpack\msgpack\predef\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\detail\_exception.h">
+      <Filter>proto\msgpack\msgpack\predef\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\detail\comp_detected.h">
+      <Filter>proto\msgpack\msgpack\predef\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\detail\endian_compat.h">
+      <Filter>proto\msgpack\msgpack\predef\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\detail\os_detected.h">
+      <Filter>proto\msgpack\msgpack\predef\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\detail\platform_detected.h">
+      <Filter>proto\msgpack\msgpack\predef\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\detail\test.h">
+      <Filter>proto\msgpack\msgpack\predef\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\detail\test_def.h">
+      <Filter>proto\msgpack\msgpack\predef\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\hardware\simd.h">
+      <Filter>proto\msgpack\msgpack\predef\hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\hardware\simd\arm.h">
+      <Filter>proto\msgpack\msgpack\predef\hardware\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\hardware\simd\ppc.h">
+      <Filter>proto\msgpack\msgpack\predef\hardware\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\hardware\simd\x86.h">
+      <Filter>proto\msgpack\msgpack\predef\hardware\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\hardware\simd\x86_amd.h">
+      <Filter>proto\msgpack\msgpack\predef\hardware\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\hardware\simd\arm\versions.h">
+      <Filter>proto\msgpack\msgpack\predef\hardware\simd\arm</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\hardware\simd\ppc\versions.h">
+      <Filter>proto\msgpack\msgpack\predef\hardware\simd\ppc</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\hardware\simd\x86\versions.h">
+      <Filter>proto\msgpack\msgpack\predef\hardware\simd\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\hardware\simd\x86_amd\versions.h">
+      <Filter>proto\msgpack\msgpack\predef\hardware\simd\x86_amd</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\language\objc.h">
+      <Filter>proto\msgpack\msgpack\predef\language</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\language\stdc.h">
+      <Filter>proto\msgpack\msgpack\predef\language</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\language\stdcpp.h">
+      <Filter>proto\msgpack\msgpack\predef\language</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\library\c.h">
+      <Filter>proto\msgpack\msgpack\predef\library</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\library\std.h">
+      <Filter>proto\msgpack\msgpack\predef\library</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\library\c\_prefix.h">
+      <Filter>proto\msgpack\msgpack\predef\library\c</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\library\c\gnu.h">
+      <Filter>proto\msgpack\msgpack\predef\library\c</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\library\c\uc.h">
+      <Filter>proto\msgpack\msgpack\predef\library\c</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\library\c\vms.h">
+      <Filter>proto\msgpack\msgpack\predef\library\c</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\library\c\zos.h">
+      <Filter>proto\msgpack\msgpack\predef\library\c</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\library\std\_prefix.h">
+      <Filter>proto\msgpack\msgpack\predef\library\std</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\library\std\cxx.h">
+      <Filter>proto\msgpack\msgpack\predef\library\std</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\library\std\dinkumware.h">
+      <Filter>proto\msgpack\msgpack\predef\library\std</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\library\std\libcomo.h">
+      <Filter>proto\msgpack\msgpack\predef\library\std</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\library\std\modena.h">
+      <Filter>proto\msgpack\msgpack\predef\library\std</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\library\std\msl.h">
+      <Filter>proto\msgpack\msgpack\predef\library\std</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\library\std\roguewave.h">
+      <Filter>proto\msgpack\msgpack\predef\library\std</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\library\std\sgi.h">
+      <Filter>proto\msgpack\msgpack\predef\library\std</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\library\std\stdcpp3.h">
+      <Filter>proto\msgpack\msgpack\predef\library\std</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\library\std\stlport.h">
+      <Filter>proto\msgpack\msgpack\predef\library\std</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\library\std\vacpp.h">
+      <Filter>proto\msgpack\msgpack\predef\library\std</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\os\aix.h">
+      <Filter>proto\msgpack\msgpack\predef\os</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\os\amigaos.h">
+      <Filter>proto\msgpack\msgpack\predef\os</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\os\android.h">
+      <Filter>proto\msgpack\msgpack\predef\os</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\os\beos.h">
+      <Filter>proto\msgpack\msgpack\predef\os</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\os\bsd.h">
+      <Filter>proto\msgpack\msgpack\predef\os</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\os\cygwin.h">
+      <Filter>proto\msgpack\msgpack\predef\os</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\os\haiku.h">
+      <Filter>proto\msgpack\msgpack\predef\os</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\os\hpux.h">
+      <Filter>proto\msgpack\msgpack\predef\os</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\os\ios.h">
+      <Filter>proto\msgpack\msgpack\predef\os</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\os\irix.h">
+      <Filter>proto\msgpack\msgpack\predef\os</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\os\linux.h">
+      <Filter>proto\msgpack\msgpack\predef\os</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\os\macos.h">
+      <Filter>proto\msgpack\msgpack\predef\os</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\os\os400.h">
+      <Filter>proto\msgpack\msgpack\predef\os</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\os\qnxnto.h">
+      <Filter>proto\msgpack\msgpack\predef\os</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\os\solaris.h">
+      <Filter>proto\msgpack\msgpack\predef\os</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\os\unix.h">
+      <Filter>proto\msgpack\msgpack\predef\os</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\os\vms.h">
+      <Filter>proto\msgpack\msgpack\predef\os</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\os\windows.h">
+      <Filter>proto\msgpack\msgpack\predef\os</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\os\bsd\bsdi.h">
+      <Filter>proto\msgpack\msgpack\predef\os\bsd</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\os\bsd\dragonfly.h">
+      <Filter>proto\msgpack\msgpack\predef\os\bsd</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\os\bsd\free.h">
+      <Filter>proto\msgpack\msgpack\predef\os\bsd</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\os\bsd\net.h">
+      <Filter>proto\msgpack\msgpack\predef\os\bsd</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\os\bsd\open.h">
+      <Filter>proto\msgpack\msgpack\predef\os\bsd</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\other\endian.h">
+      <Filter>proto\msgpack\msgpack\predef\other</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\platform\mingw.h">
+      <Filter>proto\msgpack\msgpack\predef\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\platform\windows_desktop.h">
+      <Filter>proto\msgpack\msgpack\predef\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\platform\windows_phone.h">
+      <Filter>proto\msgpack\msgpack\predef\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\platform\windows_runtime.h">
+      <Filter>proto\msgpack\msgpack\predef\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\predef\platform\windows_store.h">
+      <Filter>proto\msgpack\msgpack\predef\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\arithmetic.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\array.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\assert_msg.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\cat.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\comma.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\comma_if.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\comparison.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\control.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\debug.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\dec.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\empty.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\enum.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\enum_params.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\enum_params_with_a_default.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\enum_params_with_defaults.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\enum_shifted.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\enum_shifted_params.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\expand.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\expr_if.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\facilities.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\for.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\identity.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\if.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\inc.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\iterate.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\iteration.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\library.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\limits.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\list.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\logical.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\max.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\min.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\punctuation.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\repeat.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\repeat_2nd.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\repeat_3rd.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\repeat_from_to.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\repeat_from_to_2nd.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\repeat_from_to_3rd.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\repetition.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\selection.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\seq.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\slot.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\stringize.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\tuple.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\variadic.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\while.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\wstringize.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\arithmetic\add.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\arithmetic</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\arithmetic\dec.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\arithmetic</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\arithmetic\div.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\arithmetic</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\arithmetic\inc.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\arithmetic</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\arithmetic\mod.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\arithmetic</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\arithmetic\mul.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\arithmetic</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\arithmetic\sub.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\arithmetic</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\arithmetic\detail\div_base.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\arithmetic\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\array\data.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\array</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\array\elem.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\array</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\array\enum.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\array</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\array\insert.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\array</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\array\pop_back.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\array</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\array\pop_front.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\array</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\array\push_back.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\array</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\array\push_front.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\array</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\array\remove.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\array</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\array\replace.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\array</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\array\reverse.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\array</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\array\size.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\array</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\array\to_list.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\array</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\array\to_seq.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\array</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\array\to_tuple.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\array</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\array\detail\get_data.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\array\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\comparison\equal.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\comparison</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\comparison\greater.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\comparison</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\comparison\greater_equal.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\comparison</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\comparison\less.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\comparison</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\comparison\less_equal.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\comparison</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\comparison\not_equal.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\comparison</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\config\config.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\config</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\config\limits.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\config</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\control\deduce_d.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\control</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\control\expr_if.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\control</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\control\expr_iif.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\control</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\control\if.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\control</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\control\iif.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\control</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\control\while.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\control</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\control\detail\while.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\control\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\control\detail\dmc\while.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\control\detail\dmc</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\control\detail\edg\while.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\control\detail\edg</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\control\detail\msvc\while.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\control\detail\msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\debug\assert.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\debug\error.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\debug\line.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\detail\auto_rec.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\detail\check.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\detail\is_binary.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\detail\is_nullary.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\detail\is_unary.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\detail\null.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\detail\split.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\detail\dmc\auto_rec.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\detail\dmc</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\facilities\apply.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\facilities</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\facilities\empty.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\facilities</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\facilities\expand.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\facilities</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\facilities\identity.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\facilities</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\facilities\intercept.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\facilities</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\facilities\is_1.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\facilities</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\facilities\is_empty.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\facilities</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\facilities\is_empty_or_1.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\facilities</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\facilities\is_empty_variadic.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\facilities</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\facilities\overload.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\facilities</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\facilities\detail\is_empty.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\facilities\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\iteration\iterate.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\iteration</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\iteration\local.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\iteration</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\iteration\self.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\iteration</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\iteration\detail\finish.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\iteration\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\iteration\detail\local.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\iteration\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\iteration\detail\rlocal.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\iteration\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\iteration\detail\self.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\iteration\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\iteration\detail\start.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\iteration\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\iteration\detail\bounds\lower1.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\iteration\detail\bounds</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\iteration\detail\bounds\lower2.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\iteration\detail\bounds</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\iteration\detail\bounds\lower3.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\iteration\detail\bounds</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\iteration\detail\bounds\lower4.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\iteration\detail\bounds</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\iteration\detail\bounds\lower5.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\iteration\detail\bounds</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\iteration\detail\bounds\upper1.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\iteration\detail\bounds</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\iteration\detail\bounds\upper2.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\iteration\detail\bounds</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\iteration\detail\bounds\upper3.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\iteration\detail\bounds</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\iteration\detail\bounds\upper4.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\iteration\detail\bounds</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\iteration\detail\bounds\upper5.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\iteration\detail\bounds</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\iteration\detail\iter\forward1.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\iteration\detail\iter</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\iteration\detail\iter\forward2.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\iteration\detail\iter</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\iteration\detail\iter\forward3.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\iteration\detail\iter</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\iteration\detail\iter\forward4.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\iteration\detail\iter</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\iteration\detail\iter\forward5.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\iteration\detail\iter</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\iteration\detail\iter\reverse1.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\iteration\detail\iter</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\iteration\detail\iter\reverse2.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\iteration\detail\iter</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\iteration\detail\iter\reverse3.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\iteration\detail\iter</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\iteration\detail\iter\reverse4.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\iteration\detail\iter</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\iteration\detail\iter\reverse5.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\iteration\detail\iter</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\list\adt.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\list</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\list\append.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\list</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\list\at.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\list</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\list\cat.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\list</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\list\enum.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\list</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\list\filter.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\list</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\list\first_n.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\list</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\list\fold_left.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\list</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\list\fold_right.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\list</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\list\for_each.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\list</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\list\for_each_i.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\list</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\list\for_each_product.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\list</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\list\rest_n.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\list</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\list\reverse.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\list</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\list\size.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\list</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\list\to_array.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\list</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\list\to_seq.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\list</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\list\to_tuple.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\list</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\list\transform.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\list</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\list\detail\fold_left.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\list\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\list\detail\fold_right.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\list\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\list\detail\dmc\fold_left.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\list\detail\dmc</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\list\detail\edg\fold_left.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\list\detail\edg</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\list\detail\edg\fold_right.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\list\detail\edg</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\logical\and.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\logical</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\logical\bitand.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\logical</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\logical\bitnor.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\logical</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\logical\bitor.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\logical</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\logical\bitxor.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\logical</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\logical\bool.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\logical</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\logical\compl.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\logical</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\logical\nor.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\logical</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\logical\not.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\logical</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\logical\or.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\logical</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\logical\xor.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\logical</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\punctuation\comma.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\punctuation</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\punctuation\comma_if.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\punctuation</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\punctuation\is_begin_parens.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\punctuation</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\punctuation\paren.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\punctuation</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\punctuation\paren_if.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\punctuation</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\punctuation\remove_parens.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\punctuation</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\punctuation\detail\is_begin_parens.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\punctuation\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\repetition\deduce_r.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\repetition</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\repetition\deduce_z.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\repetition</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\repetition\enum.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\repetition</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\repetition\enum_binary_params.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\repetition</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\repetition\enum_params.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\repetition</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\repetition\enum_params_with_a_default.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\repetition</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\repetition\enum_params_with_defaults.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\repetition</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\repetition\enum_shifted.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\repetition</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\repetition\enum_shifted_binary_params.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\repetition</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\repetition\enum_shifted_params.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\repetition</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\repetition\enum_trailing.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\repetition</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\repetition\enum_trailing_binary_params.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\repetition</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\repetition\enum_trailing_params.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\repetition</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\repetition\for.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\repetition</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\repetition\repeat.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\repetition</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\repetition\repeat_from_to.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\repetition</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\repetition\detail\for.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\repetition\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\repetition\detail\dmc\for.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\repetition\detail\dmc</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\repetition\detail\edg\for.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\repetition\detail\edg</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\repetition\detail\msvc\for.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\repetition\detail\msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\selection\max.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\selection</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\selection\min.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\selection</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\seq\cat.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\seq\elem.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\seq\enum.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\seq\filter.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\seq\first_n.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\seq\fold_left.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\seq\fold_right.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\seq\for_each.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\seq\for_each_i.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\seq\for_each_product.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\seq\insert.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\seq\pop_back.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\seq\pop_front.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\seq\push_back.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\seq\push_front.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\seq\remove.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\seq\replace.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\seq\rest_n.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\seq\reverse.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\seq\seq.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\seq\size.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\seq\subseq.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\seq\to_array.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\seq\to_list.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\seq\to_tuple.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\seq\transform.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\seq\variadic_seq_to_seq.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\seq</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\seq\detail\binary_transform.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\seq\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\seq\detail\is_empty.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\seq\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\seq\detail\split.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\seq\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\slot\counter.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\slot</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\slot\slot.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\slot</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\slot\detail\counter.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\slot\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\slot\detail\def.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\slot\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\slot\detail\shared.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\slot\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\slot\detail\slot1.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\slot\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\slot\detail\slot2.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\slot\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\slot\detail\slot3.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\slot\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\slot\detail\slot4.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\slot\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\slot\detail\slot5.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\slot\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\tuple\eat.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\tuple</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\tuple\elem.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\tuple</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\tuple\enum.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\tuple</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\tuple\insert.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\tuple</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\tuple\pop_back.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\tuple</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\tuple\pop_front.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\tuple</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\tuple\push_back.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\tuple</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\tuple\push_front.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\tuple</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\tuple\rem.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\tuple</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\tuple\remove.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\tuple</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\tuple\replace.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\tuple</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\tuple\reverse.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\tuple</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\tuple\size.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\tuple</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\tuple\to_array.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\tuple</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\tuple\to_list.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\tuple</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\tuple\to_seq.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\tuple</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\tuple\detail\is_single_return.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\tuple\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\variadic\elem.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\variadic</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\variadic\size.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\variadic</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\variadic\to_array.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\variadic</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\variadic\to_list.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\variadic</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\variadic\to_seq.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\variadic</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\variadic\to_tuple.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\variadic</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\preprocessor\variadic\detail\is_single_return.hpp">
+      <Filter>proto\msgpack\msgpack\preprocessor\variadic\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\cpp_config.hpp">
+      <Filter>proto\msgpack\msgpack\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\cpp_config_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\fbuffer.hpp">
+      <Filter>proto\msgpack\msgpack\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\fbuffer_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\iterator.hpp">
+      <Filter>proto\msgpack\msgpack\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\iterator_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\meta.hpp">
+      <Filter>proto\msgpack\msgpack\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\meta_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\object.hpp">
+      <Filter>proto\msgpack\msgpack\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\object_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\object_fwd.hpp">
+      <Filter>proto\msgpack\msgpack\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\object_fwd_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\pack.hpp">
+      <Filter>proto\msgpack\msgpack\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\pack_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\parse_return.hpp">
+      <Filter>proto\msgpack\msgpack\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\preprocessor.hpp">
+      <Filter>proto\msgpack\msgpack\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\sbuffer.hpp">
+      <Filter>proto\msgpack\msgpack\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\sbuffer_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\unpack.hpp">
+      <Filter>proto\msgpack\msgpack\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\unpack_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\unpack_exception.hpp">
+      <Filter>proto\msgpack\msgpack\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\version.hpp">
+      <Filter>proto\msgpack\msgpack\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\versioning.hpp">
+      <Filter>proto\msgpack\msgpack\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\vrefbuffer.hpp">
+      <Filter>proto\msgpack\msgpack\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\vrefbuffer_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\zbuffer.hpp">
+      <Filter>proto\msgpack\msgpack\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\zbuffer_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\zone.hpp">
+      <Filter>proto\msgpack\msgpack\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\zone_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\adaptor_base.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\adaptor_base_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\array_ref.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\array_ref_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\bool.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\carray.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\char_ptr.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\check_container_size.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\check_container_size_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\define.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\define_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\deque.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\ext.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\ext_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\fixint.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\fixint_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\float.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\int.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\int_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\list.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\map.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\map_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\msgpack_tuple.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\msgpack_tuple_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\nil.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\nil_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\pair.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\raw.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\raw_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\set.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\size_equal_only.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\size_equal_only_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\string.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\v4raw.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\v4raw_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\vector.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\vector_bool.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\vector_char.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\vector_unsigned_char.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\boost\fusion.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\boost\msgpack_variant.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\boost\msgpack_variant_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\boost\optional.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\boost\string_ref.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\boost\string_view.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\cpp11\array.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor\cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\cpp11\array_char.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor\cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\cpp11\array_unsigned_char.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor\cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\cpp11\forward_list.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor\cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\cpp11\reference_wrapper.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor\cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\cpp11\shared_ptr.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor\cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\cpp11\tuple.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor\cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\cpp11\unique_ptr.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor\cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\cpp11\unordered_map.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor\cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\cpp11\unordered_set.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor\cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\cpp17\optional.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor\cpp17</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\cpp17\string_view.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor\cpp17</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\detail\cpp03_define_array.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\detail\cpp03_define_array_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\detail\cpp03_define_map.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\detail\cpp03_define_map_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\detail\cpp03_msgpack_tuple.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\detail\cpp03_msgpack_tuple_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\detail\cpp11_define_array.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\detail\cpp11_define_array_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\detail\cpp11_define_map.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\detail\cpp11_define_map_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\detail\cpp11_msgpack_tuple.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\detail\cpp11_msgpack_tuple_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\tr1\unordered_map.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor\tr1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\adaptor\tr1\unordered_set.hpp">
+      <Filter>proto\msgpack\msgpack\v1\adaptor\tr1</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\detail\cpp03_zone.hpp">
+      <Filter>proto\msgpack\msgpack\v1\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\detail\cpp03_zone_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\detail\cpp11_zone.hpp">
+      <Filter>proto\msgpack\msgpack\v1\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v1\detail\cpp11_zone_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v1\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\cpp_config_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\create_object_visitor.hpp">
+      <Filter>proto\msgpack\msgpack\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\fbuffer_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\iterator_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\meta_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\null_visitor.hpp">
+      <Filter>proto\msgpack\msgpack\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\object.hpp">
+      <Filter>proto\msgpack\msgpack\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\object_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\object_fwd.hpp">
+      <Filter>proto\msgpack\msgpack\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\object_fwd_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\pack_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\parse.hpp">
+      <Filter>proto\msgpack\msgpack\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\parse_return.hpp">
+      <Filter>proto\msgpack\msgpack\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\sbuffer_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\unpack.hpp">
+      <Filter>proto\msgpack\msgpack\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\unpack_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\vrefbuffer_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\x3_parse.hpp">
+      <Filter>proto\msgpack\msgpack\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\x3_unpack.hpp">
+      <Filter>proto\msgpack\msgpack\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\zbuffer_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\zone_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\adaptor\adaptor_base.hpp">
+      <Filter>proto\msgpack\msgpack\v2\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\adaptor\adaptor_base_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\adaptor\array_ref_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\adaptor\check_container_size_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\adaptor\define_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\adaptor\ext_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\adaptor\fixint_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\adaptor\int_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\adaptor\map_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\adaptor\msgpack_tuple_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\adaptor\nil_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\adaptor\raw_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\adaptor\size_equal_only_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\adaptor\v4raw_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2\adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\adaptor\boost\msgpack_variant_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2\adaptor\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\adaptor\detail\cpp03_define_array_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2\adaptor\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\adaptor\detail\cpp03_define_map_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2\adaptor\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\adaptor\detail\cpp03_msgpack_tuple_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2\adaptor\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\adaptor\detail\cpp11_define_array_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2\adaptor\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\adaptor\detail\cpp11_define_map_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2\adaptor\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\adaptor\detail\cpp11_msgpack_tuple_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2\adaptor\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\detail\cpp03_zone_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\msgpack\msgpack\v2\detail\cpp11_zone_decl.hpp">
+      <Filter>proto\msgpack\msgpack\v2\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\allocators.h">
+      <Filter>proto\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\document.h">
+      <Filter>proto\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\encodedstream.h">
+      <Filter>proto\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\encodings.h">
+      <Filter>proto\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\filereadstream.h">
+      <Filter>proto\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\filewritestream.h">
+      <Filter>proto\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\fwd.h">
+      <Filter>proto\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\istreamwrapper.h">
+      <Filter>proto\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\memorybuffer.h">
+      <Filter>proto\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\memorystream.h">
+      <Filter>proto\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\ostreamwrapper.h">
+      <Filter>proto\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\pointer.h">
+      <Filter>proto\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\prettywriter.h">
+      <Filter>proto\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\rapidjson.h">
+      <Filter>proto\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\reader.h">
+      <Filter>proto\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\schema.h">
+      <Filter>proto\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\stream.h">
+      <Filter>proto\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\stringbuffer.h">
+      <Filter>proto\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\writer.h">
+      <Filter>proto\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\error\en.h">
+      <Filter>proto\rapidjson\error</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\error\error.h">
+      <Filter>proto\rapidjson\error</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\internal\biginteger.h">
+      <Filter>proto\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\internal\diyfp.h">
+      <Filter>proto\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\internal\dtoa.h">
+      <Filter>proto\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\internal\ieee754.h">
+      <Filter>proto\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\internal\itoa.h">
+      <Filter>proto\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\internal\meta.h">
+      <Filter>proto\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\internal\pow10.h">
+      <Filter>proto\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\internal\regex.h">
+      <Filter>proto\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\internal\stack.h">
+      <Filter>proto\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\internal\strfunc.h">
+      <Filter>proto\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\internal\strtod.h">
+      <Filter>proto\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\internal\swap.h">
+      <Filter>proto\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\msinttypes\inttypes.h">
+      <Filter>proto\rapidjson\msinttypes</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\rapidjson\msinttypes\stdint.h">
+      <Filter>proto\rapidjson\msinttypes</Filter>
+    </ClInclude>
+    <ClInclude Include="base\Endian.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="core\fpnn.h">
+      <Filter>core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="base\base64.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\bit.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\CommandLineUtil.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\FileSystemUtil.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\FPJson.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\FPJsonParser.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\FPLog.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\FpnnError.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\hashint.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\hex.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\httpcode.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\jenkins.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\md5.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\MemoryPool.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\MidGenerator.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\NetworkUtility.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\rijndael.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\sha1.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\sha256.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\StringUtil.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\TaskThreadPool.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\TimeUtil.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="core\micro-ecc\uECC.c">
+      <Filter>core\micro-ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="core\ClientEngine.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\ClientInterface.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Config.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\ConnectionMap.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\EncryptedPackageReceiver.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\EncryptedStreamReceiver.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Encryptor.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\IOBuffer.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\IQuestProcessor.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\KeyExchange.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\PEM_DER_SAX.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\TCPClient.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\TCPClientIOWorker.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\UDPARQProtocolParser.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\UDPClient.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\UDPClientIOWorker.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\UDPCongestionControl.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\UDPIOBuffer.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\UnencryptedReceiver.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\FPMessage.cpp">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\FPReader.cpp">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\FPWriter.cpp">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\JSONConvert.cpp">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="base\Endian.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="core\micro-ecc\asm_arm.inc">
+      <Filter>core\micro-ecc</Filter>
+    </None>
+    <None Include="core\micro-ecc\asm_arm_mult_square.inc">
+      <Filter>core\micro-ecc</Filter>
+    </None>
+    <None Include="core\micro-ecc\asm_arm_mult_square_umaal.inc">
+      <Filter>core\micro-ecc</Filter>
+    </None>
+    <None Include="core\micro-ecc\asm_avr.inc">
+      <Filter>core\micro-ecc</Filter>
+    </None>
+    <None Include="core\micro-ecc\asm_avr_mult_square.inc">
+      <Filter>core\micro-ecc</Filter>
+    </None>
+    <None Include="core\micro-ecc\curve-specific.inc">
+      <Filter>core\micro-ecc</Filter>
+    </None>
+    <None Include="core\micro-ecc\platform-specific.inc">
+      <Filter>core\micro-ecc</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="core\micro-ecc\LICENSE.txt">
+      <Filter>core\micro-ecc</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
